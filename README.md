@@ -1,3 +1,17 @@
+# Techpack
+
+A computer-vision app that estimates 22 body measurements from one photo using existing models.
+
+I built the integration between image upload, pose estimation, body-model fitting and measurement extraction.
+
+The project combines a [React frontend](https://github.com/EthanFifle/teckpackFE), an [OpenPose API](https://github.com/EthanFifle/openpose-api), SMPLify-X and [MeasureMe](https://github.com/EthanFifle/MeasureMe). This repository coordinates the backend services.
+
+Research prototype from 2024. Setup requires compatible GPU dependencies and separately obtained model assets. No hosted demo is currently linked here.
+
+## Upstream work
+
+Built on [SMPLify-X](https://github.com/vchoutas/smplify-x) and [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose). Keep the original attribution, citations and license notices below.
+
 ## Expressive Body Capture: 3D Hands, Face, and Body from a Single Image
 
 [[Project Page](https://smpl-x.is.tue.mpg.de/)] 
